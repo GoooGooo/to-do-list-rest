@@ -32,6 +32,7 @@ const userSchema = new Schema({
     password: { type: String, required: true },
     isBlocked: { type: Boolean, default: false },
     isConfirm: { type: Boolean, default: false },
+    confirmationCode: { type: String, required: true }
 });
 
 // установка схемы для создания задачи
